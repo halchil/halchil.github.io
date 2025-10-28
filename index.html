@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <title>My Research Notes</title>
-  <link rel="stylesheet" href="assets/style.css" />
-  <!-- KaTeX -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-    onload="renderMathInElement(document.body);"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halchil Research Archive</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #222;
+    }
+    .papers {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .paper {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .paper:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>📘 My Research Notes</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="posts/2025-10-physics.html">Physics</a>
-      <a href="posts/2025-11-ai.html">AI</a>
-    </nav>
+    <h1>Halchil Research Archive</h1>
+    <p>研究成果・論文資料へのリンク</p>
   </header>
 
-  <main>
-    <h2>研究メモ一覧</h2>
-    <ul>
-      <li><a href="posts/2025-10-physics.html">量子振動系の解析</a></li>
-      <li><a href="posts/2025-11-ai.html">AIによる物理方程式の自動発見</a></li>
-    </ul>
-  </main>
+  <section class="papers">
+    <div class="paper">
+      <h2>Data Compression using the Fourier Transform</h2>
+      <p>Fourier変換を用いたデータ圧縮に関する研究。</p>
+      <p><a href="papers/Data_compression_using_the_Fourier_transform.pdf" target="_blank">📄 PDFを開く</a></p>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2025 はる研究室</p>
-  </footer>
 </body>
 </html>
