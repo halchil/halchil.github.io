@@ -46,5 +46,8 @@ GitHub上のリポジトリページへ
 「Branch」欄で　main（またはmaster）ブランチを選択 → 「Save」
 
 数十秒待つとURLが出る　https://ユーザー名.github.io/
+
+ 複数リポジトリで複数ページ作成も可能
+
  
 
